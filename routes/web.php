@@ -9,6 +9,17 @@ use App\Http\Controllers\PengembalianController;
 use App\Http\Controllers\CategoryController;
 Use App\Http\Controllers\DashboardController;
 
+use Illuminate\Support\Facades\Artisan;
+
+Route::get('/migrate', function () {
+    try {
+        Artisan::call('migrate', ['--force' => true]);
+        return "Migrasi berhasil dijalankan ✅";
+    } catch (\Exception $e) {
+        return "Error migrasi: " . $e->getMessage();
+    }
+});
+
 Route::get('/', function () {
     return view('landingpage');
 })->name('landing');
