@@ -91,27 +91,27 @@
   <section class="feature-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
-          <div class="feature-card">
-            <img src="https://via.placeholder.com/100?text=Catalog" alt="Catalog Icon">
-            <h3>Katalog Barang</h3>
-            <p>Jelajahi berbagai barang yang tersedia untuk dipinjam.</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="feature-card">
-            <img src="https://via.placeholder.com/100?text=Access" alt="Access Icon">
-            <h3>Akses Kapan Saja</h3>
-            <p>Pinjam barang dari mana saja melalui platform ini.</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="feature-card">
-            <img src="https://via.placeholder.com/100?text=Support" alt="Support Icon">
-            <h3>Dukungan Peminjaman</h3>
-            <p>Dapatkan bantuan untuk proses peminjaman Anda.</p>
-          </div>
-        </div>
+<div class="col-md-4">
+  <div class="feature-card">
+    <i class="bi bi-book" style="font-size: 3rem; color: #1e3a8a;"></i>
+    <h3>Katalog Barang</h3>
+    <p>Jelajahi berbagai barang yang tersedia untuk dipinjam.</p>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="feature-card">
+    <i class="bi bi-globe" style="font-size: 3rem; color: #1e3a8a;"></i>
+    <h3>Akses Kapan Saja</h3>
+    <p>Pinjam barang dari mana saja melalui platform ini.</p>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="feature-card">
+    <i class="bi bi-headset" style="font-size: 3rem; color: #1e3a8a;"></i>
+    <h3>Dukungan Peminjaman</h3>
+    <p>Dapatkan bantuan untuk proses peminjaman Anda.</p>
+  </div>
+</div>
       </div>
     </div>
   </section>
